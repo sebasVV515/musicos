@@ -1,0 +1,14 @@
+.cont{
+  display:flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-around;
+}
+.cont2{
+  width: 20% !important;
+  margin: 40px;
+}
+.img2{
+  height: 200px;
+}

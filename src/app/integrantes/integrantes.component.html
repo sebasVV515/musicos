@@ -1,2 +1,15 @@
 <app-menu></app-menu>
+<div class="cont">
+  <div class="card cont2" *ngFor="let integrante of integrantes" style="width: 18rem;">
+    <img src={{integrante.foto}} class="card-img-top img2" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">{{integrante.nombre}}</h5>
+      <h6>Fecha de Nacimiento</h6>
+      <p class="card-text">{{integrante.nacimiento}}</p>
+      <h6>Estatura</h6>
+      <p class="card-text">{{integrante.estatura}}</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+</div>
 <app-footer></app-footer>
