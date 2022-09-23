@@ -10,6 +10,8 @@ import { HistoriaComponent } from './historia/historia.component';
 import { IntegrantesComponent } from './integrantes/integrantes.component';
 import { AlbumesComponent } from './albumes/albumes.component';
 
+import { HttpClientModule } from '@angular/common/http';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +24,8 @@ import { AlbumesComponent } from './albumes/albumes.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,13 +1,17 @@
 .cont{
   display:flex;
   flex-wrap: wrap;
-  width: 80%;
+  background-color: rgb(71, 71, 71);
+  padding: 0 10%;
+  width: 100%;
   margin: 0 auto;
   justify-content: space-around;
 }
 .cont2{
   width: 20% !important;
   margin: 40px;
+  background: black;
+  color: white;
 }
 .img2{
   height: 200px;

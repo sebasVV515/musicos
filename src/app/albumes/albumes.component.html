@@ -1,2 +1,14 @@
 <app-menu></app-menu>
+<div class="cont">
+  <div class="card cont2" *ngFor="let respuesta of respuesta" style="width: 18rem;">
+    <img src={{respuesta.imagenes}} class="card-img-top img2" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">{{respuesta.nombre}}</h5>
+      <p class="card-text">{{respuesta.descripcion}}</p>
+      <h6>Valor Noche</h6>
+      <p class="card-text">{{respuesta.valorNoche}}</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+</div>
 <app-footer></app-footer>
