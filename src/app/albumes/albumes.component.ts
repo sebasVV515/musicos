@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { TopService } from '../services/top.service';
+import { SpotyService } from '../services/spoty.service';
 
 @Component({
   selector: 'app-albumes',
@@ -7,12 +7,10 @@ import { TopService } from '../services/top.service';
   styleUrls: ['./albumes.component.css']
 })
 export class AlbumesComponent{
-  public respuesta:any[]=[]
-  constructor(public peticion:TopService) {
-    this.peticion.buscar()
-    .subscribe(respuesta=>{
-      this.respuesta=respuesta.datos
-      console.log(this.respuesta)
-    })
+  public canciones:any[]=[]
+  constructor(public peticion:SpotyService) {
+    this.peticion.traerCanciones().subscribe(canciones=>{
+      this.canciones=canciones.tracks
+      console.log(canciones.tracks)})
   }
 }

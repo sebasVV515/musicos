@@ -2,13 +2,13 @@
   background-image: url("https://firebasestorage.googleapis.com/v0/b/musicos-75fae.appspot.com/o/System-of-a-Down-1-768x512.jpg?alt=media&token=153114fa-0aa6-43fa-8574-97961e6e2243");
   background-position: top center;
   background-size: cover;
-  padding: 5% 30% 20% 20%;
+  padding: 5% 30% 10% 20%;
 }
 h2{
   color: white;
 }
 .textopa{
   padding: 20px;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.8);
   color: white;
 }

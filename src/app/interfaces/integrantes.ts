@@ -3,4 +3,5 @@ export interface Integrantes {
   nombre:String;
   nacimiento:String;
   estatura:String;
+  rol:String;
 }

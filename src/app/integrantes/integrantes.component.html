@@ -3,12 +3,14 @@
   <div class="card cont2" *ngFor="let integrante of integrantes" style="width: 18rem;">
     <img src={{integrante.foto}} class="card-img-top img2" alt="...">
     <div class="card-body">
-      <h5 class="card-title">{{integrante.nombre}}</h5>
+      <h4 class="card-title">{{integrante.nombre}}</h4>
+      <br>
       <h6>Fecha de Nacimiento</h6>
       <p class="card-text">{{integrante.nacimiento}}</p>
       <h6>Estatura</h6>
       <p class="card-text">{{integrante.estatura}}</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
+      <h6>Rol</h6>
+      <p class="card-text">{{integrante.rol}}</p>
     </div>
   </div>
 </div>
